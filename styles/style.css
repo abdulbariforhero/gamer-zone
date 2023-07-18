@@ -1,0 +1,45 @@
+/* common shared styles */
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner section styles */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 180px;
+}
+.banner-content-container {
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.banner-content-container h4{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 2.8rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.banner-content-container h3{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 9rem;
+}
+.banner-content-container p{
+    color: #534C64;
+text-align: center;
+font-size: 1.2rem;
+}
+
+.banner-image-container img{
+width: 80%;
+}
