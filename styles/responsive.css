@@ -1,5 +1,5 @@
 /* for mobile screen */
-@media screen and (max-width:500px) {
+@media screen and (max-width:576px) {
     .banner-container {
         flex-direction: column-reverse;
         gap: 100px;
@@ -40,7 +40,7 @@
 }
 
 /* for tablet users */
-@media screen and (min-width:500px) and (max-width:900px) {
+@media screen and (min-width:577px) and (max-width:900px) {
     .play-now-image-postion {
         bottom: 100px;
         left: 220px;
