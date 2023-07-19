@@ -67,6 +67,10 @@
 
 
     /* footer section mobile size */
+    footer {
+        margin-right: 0px;
+    }
+
     .footer-icons-social,
     .our-policy-list,
     footer ul {
