@@ -15,7 +15,7 @@
 
 
     .play-game-online-now {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
 
@@ -37,6 +37,22 @@
         width: 90%;
     }
 
+
+    .gamers-buttons-container{
+        margin-top: ;
+        flex: none;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 8px;
+        margin: 0 auto;
+    }
+    .gamer-btn,
+    .gamer-btn a{
+        width: calc( (33vw) - 20px);
+        font-size: .7rem;
+        gap: 1px;
+    }
+
 }
 
 /* for tablet users */
@@ -45,6 +61,19 @@
         bottom: 100px;
         left: 220px;
         width: 40%;
+    }
+
+    .gamers-buttons-container{
+        margin-top: ;
+        flex: none;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 8px;
+    }
+    .gamer-btn{
+        width: calc( (33vw) - 20px);
+        /* font-size: rem; */
+        gap: 1px;
     }
 
 }
