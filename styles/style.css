@@ -51,6 +51,7 @@
 
 .nav-container h3 {
     width: 50%;
+    text-align: center;
 }
 
 .nav-container ul {
@@ -160,6 +161,10 @@
     font-size: 1.3rem;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.online-video-card-image-container:hover {
+    cursor: pointer;
 }
 
 .online-video-card-image-container:hover .online-video-card-image {

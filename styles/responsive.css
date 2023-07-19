@@ -6,6 +6,11 @@
         flex-direction: column;
     }
 
+    .nav-container ul,
+    .nav-container h3 {
+        width: 100%;
+    }
+
     .nav-container ul {
         gap: 30px;
     }
@@ -80,8 +85,19 @@
 
 }
 
+
+
+
+
+
+
 /* for tablet users */
 @media screen and (min-width:577px) and (max-width:900px) {
+
+    .nav-container {
+        padding-left: 60px;
+    }
+
     .play-now-image-postion {
         bottom: 100px;
         left: 220px;
@@ -100,8 +116,9 @@
 
     .gamer-btn {
         width: calc((33vw) - 20px);
-        /* font-size: rem; */
         gap: 1px;
     }
+
+
 
 }
