@@ -183,3 +183,51 @@
     background: aquamarine;
     border: 2px solid violet;
 }
+
+
+
+
+/* Footer Section styles */
+footer {
+    background: #0B0223;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer h3 {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3>img {
+    padding-right: 10px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding: 60px 0;
+}
+
+.footer-icons-social {
+    color: red;
+}
+
+.footer-font-color-gray {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.our-policy-list {
+    padding-bottom: 28px;
+}
+
+.footer-pricvecy-text {
+    padding-bottom: 120px;
+}
