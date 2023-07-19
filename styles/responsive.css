@@ -38,17 +38,19 @@
     }
 
 
-    .gamers-buttons-container{
+    .gamers-buttons-container {
         margin-top: ;
         flex: none;
         display: grid;
-        grid-template-columns: repeat(3 , 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 8px;
-        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
     }
+
     .gamer-btn,
-    .gamer-btn a{
-        width: calc( (33vw) - 20px);
+    .gamer-btn a {
+        width: calc((33vw) - 20px);
         font-size: .7rem;
         gap: 1px;
     }
@@ -63,15 +65,18 @@
         width: 40%;
     }
 
-    .gamers-buttons-container{
+    .gamers-buttons-container {
         margin-top: ;
         flex: none;
         display: grid;
-        grid-template-columns: repeat(3 , 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 8px;
+        justify-content: center;
+        align-content: center;
     }
-    .gamer-btn{
-        width: calc( (33vw) - 20px);
+
+    .gamer-btn {
+        width: calc((33vw) - 20px);
         /* font-size: rem; */
         gap: 1px;
     }
