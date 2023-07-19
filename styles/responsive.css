@@ -1,11 +1,13 @@
 /* for mobile screen */
-@media screen and (max-width:576px) {
+@media screen and (max-width:500px) {
     .banner-container {
         flex-direction: column-reverse;
         gap: 100px;
+        padding: 10px;
     }
 
     .banner-content-container {
         padding: 0 20px 0 30px;
     }
+
 }
