@@ -245,6 +245,7 @@
     border-radius: 50px;
     background: fuchsia;
     box-shadow: 5px #4EC5F7;
+    border: 2px solid transparent;
 }
 
 .gamer-btn,
