@@ -155,6 +155,7 @@
 }
 
 .gamer-btn {
+    flex-basis: 17%;
     border-radius: 50px;
     background: fuchsia;
     box-shadow: 5px #4EC5F7;
