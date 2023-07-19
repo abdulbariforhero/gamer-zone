@@ -210,14 +210,21 @@ footer h3>img {
 }
 
 footer ul {
-    list-style: none;
-    display: flex;
-    gap: 60px;
     padding: 60px 0;
 }
 
-.footer-icons-social {
-    color: red;
+footer ul,
+footer ul div {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.footer-icons-social,
+.footer-icons-social div {
+    color: #FFF;
+    display: flex;
+    gap: 40px;
 }
 
 .footer-font-color-gray {
@@ -225,7 +232,16 @@ footer ul {
 }
 
 .our-policy-list {
-    padding-bottom: 28px;
+    padding-bottom: 25px;
+}
+
+.our-policy-list,
+.our-policy-list div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .footer-pricvecy-text {

@@ -55,6 +55,15 @@
         gap: 1px;
     }
 
+
+    /* footer section mobile size */
+    .footer-icons-social,
+    .our-policy-list,
+    footer ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
 
 /* for tablet users */
