@@ -37,7 +37,35 @@
 
 
 
+
+/* navbar styles */
+.nav-container,
+.nav-container ul,
+.nav-container h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-container h3 {
+    width: 50%;
+}
+
+.nav-container ul {
+    list-style: none;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.yt {
+    color: red;
+}
+
+
 /* banner section styles */
+
 .banner-container {
     display: flex;
     align-items: center;
@@ -78,7 +106,10 @@
 
 
 
+
+
 /* online Gamer Video Styles */
+
 .oline-gamers-video-container {
     text-align: center;
     margin-top: 100px;
@@ -99,8 +130,54 @@
     justify-content: center;
 }
 
+.online-video-card-image-container {
+    position: relative;
+    display: inline-block;
+}
+
 .online-gamer-video-card img {
     width: 100%;
+    border: 5px solid transparent;
+    border-radius: 22px;
+}
+
+.play-hover {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    /* transition: opacity 0.3s ease; */
+    /* background-color: rgba(0, 0, 0, 7); */
+}
+
+.game-video-play-button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.game-video-Play-text {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.online-video-card-image-container:hover .online-video-card-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    border: 5px solid red;
+}
+
+.online-video-card-image-container:hover .play-hover {
+    opacity: 1;
 }
 
 .online-gamer-video-card p {
@@ -110,7 +187,11 @@
 
 
 
+
+
+
 /* play Game online now section styles */
+
 .play-game-online-now {
     margin-top: 120px;
     display: flex;
@@ -144,7 +225,12 @@
 }
 
 
-/* Gamer button related styles */
+
+
+
+
+/* Gamer-button related styles */
+
 .gamers-buttons-container {
     padding: 120px 0;
     display: flex;
@@ -187,7 +273,10 @@
 
 
 
+
+
 /* Footer Section styles */
+
 footer {
     background: #0B0223;
     color: #FFF;

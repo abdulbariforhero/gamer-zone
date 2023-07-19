@@ -1,5 +1,15 @@
 /* for mobile screen */
 @media screen and (max-width:576px) {
+
+    .nav-container,
+    .nav-container ul {
+        flex-direction: column;
+    }
+
+    .nav-container ul {
+        gap: 30px;
+    }
+
     .banner-container {
         flex-direction: column-reverse;
         gap: 100px;
