@@ -6,8 +6,45 @@
         padding: 10px;
     }
 
+
+
     .banner-content-container {
         padding: 0 20px 0 30px;
+    }
+
+
+
+    .play-game-online-now {
+        flex-direction: column-reverse;
+    }
+
+
+    .play-game-online-now-image-container {
+        width: 80%;
+        margin-top: 80px;
+        margin-right: 40px;
+    }
+
+
+    .play-now-image-postion {
+        bottom: 120px;
+        left: 270px;
+        width: 40%;
+    }
+
+
+    .play-game-online-now-content-container {
+        width: 90%;
+    }
+
+}
+
+/* for tablet users */
+@media screen and (min-width:500px) and (max-width:900px) {
+    .play-now-image-postion {
+        bottom: 100px;
+        left: 220px;
+        width: 40%;
     }
 
 }
