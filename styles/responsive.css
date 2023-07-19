@@ -1,0 +1,11 @@
+/* for mobile screen */
+@media screen and (max-width:576px) {
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+
+    .banner-content-container {
+        padding: 0 20px 0 30px;
+    }
+}
