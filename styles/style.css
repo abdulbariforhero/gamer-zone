@@ -82,6 +82,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    justify-content: flex-end;
     padding: 90px 0;
 }
 
@@ -93,7 +94,6 @@
 
 .banner-content-container p {
     color: #534C64;
-    text-align: center;
     font-size: 1.2rem;
     margin-bottom: 15px;
 }
@@ -115,8 +115,56 @@
 
 
 /* Team section styles */
+.team-section-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+
+
 .team-section-item img {
     width: 100%;
+}
+
+.team-section-item {
+    width: 60%;
+}
+
+.team-content-coantianer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+    padding-right: 200px;
+}
+
+.team-content-coantianer>p {
+    color: #534C64;
+    font-size: 1.12rem;
+    text-align: right;
+    line-height: 2rem;
+    margin-top: 20px;
+}
+
+.team-content-coantianer>p>h4 {
+    color: #534C64;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.team-btn-rithg {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: right;
+    max-width: fit-content;
+
 }
 
 

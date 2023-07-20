@@ -1,6 +1,7 @@
 /* for mobile screen */
 @media screen and (max-width:576px) {
 
+    /* Nav section styles */
     .nav-container,
     .nav-container ul {
         flex-direction: column;
@@ -14,6 +15,10 @@
     .nav-container ul {
         gap: 30px;
     }
+
+
+
+    /* banner section styles */
 
     .banner-container {
         flex-direction: column-reverse;
@@ -32,6 +37,24 @@
 
 
 
+    /* Team section styles */
+    .team-section-container {
+        flex-direction: column;
+    }
+
+    .team-section-item {
+        width: 100%;
+        padding: 0 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .team-content-coantianer>p {
+        text-align: center;
+    }
+
+    /* Play-Game online section styles */
     .play-game-online-now {
         flex-direction: column;
     }
@@ -55,6 +78,7 @@
         width: 90%;
     }
 
+    /* gammer button section styles */
 
     .gamers-buttons-container {
         margin-top: ;
@@ -97,10 +121,14 @@
 /* for tablet users */
 @media screen and (min-width:577px) and (max-width:900px) {
 
+    /* nav section styles */
     .nav-container {
         padding-left: 60px;
     }
 
+
+
+    /* banner section styles */
     .banner-container {
         flex-direction: column-reverse;
         gap: 100px;
@@ -115,11 +143,31 @@
         width: 70%;
     }
 
+    /* Team section styles */
+    .team-section-container {
+        flex-direction: column;
+    }
+
+    .team-section-item {
+        width: 100%;
+        padding: 0 30px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .team-content-coantianer>p {
+        text-align: center;
+    }
+
+    /* Play-Video section styles */
     .play-now-image-postion {
         bottom: 100px;
         left: 220px;
         width: 40%;
     }
+
+    /* Gamer-button section styles */
 
     .gamers-buttons-container {
         margin-top: ;
@@ -136,6 +184,10 @@
         gap: 1px;
     }
 
+    /* footer */
+    footer {
+        margin-right: -20px;
+    }
 
 
 }
