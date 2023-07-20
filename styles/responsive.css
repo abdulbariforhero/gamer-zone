@@ -54,6 +54,24 @@
         text-align: center;
     }
 
+
+    /* play-game now  */
+    .play-Game-now-container {
+        flex-direction: column-reverse;
+    }
+
+    .play-game-now-image-container {
+        width: 90%;
+        margin-left: 30%;
+    }
+
+    .play-game-now-content {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        margin-top: -50px;
+    }
+
     /* Play-Game online section styles */
     .play-game-online-now {
         flex-direction: column;
@@ -81,7 +99,7 @@
     /* gammer button section styles */
 
     .gamers-buttons-container {
-        margin-top: ;
+        margin-top: 20px;
         flex: none;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -158,6 +176,11 @@
 
     .team-content-coantianer>p {
         text-align: center;
+    }
+
+    /* play-game now online  */
+    .play-game-now-content {
+        padding-right: 30px;
     }
 
     /* Play-Video section styles */
