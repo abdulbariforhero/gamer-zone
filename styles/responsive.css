@@ -21,7 +21,10 @@
         padding: 10px;
     }
 
-
+    .banner-content-container,
+    .banner-image-container {
+        width: 100%;
+    }
 
     .banner-content-container {
         padding: 0 20px 0 30px;
@@ -73,7 +76,8 @@
 
     /* footer section mobile size */
     footer {
-        margin-right: 0px;
+        width: 100%;
+        justify-content: center;
     }
 
     .footer-icons-social,
@@ -96,6 +100,20 @@
 
     .nav-container {
         padding-left: 60px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 100px;
+        padding: 10px;
+    }
+
+    .banner-content-container {
+        width: 100%;
+    }
+
+    .banner-image-container {
+        width: 70%;
     }
 
     .play-now-image-postion {
