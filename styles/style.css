@@ -287,9 +287,12 @@
 
 
 /* Footer Section styles */
-
 footer {
-    background: #0B0223;
+    background-color: #0B0223;
+
+}
+
+.footer {
     color: #FFF;
     display: flex;
     flex-direction: column;

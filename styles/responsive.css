@@ -76,8 +76,7 @@
 
     /* footer section mobile size */
     footer {
-        width: 100%;
-        justify-content: center;
+        margin-right: -30px;
     }
 
     .footer-icons-social,
