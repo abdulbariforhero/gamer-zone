@@ -116,6 +116,22 @@
     }
 
 
+    /* career section styles */
+    .carear-section-contianer {
+        margin-top: 100px;
+        flex-direction: column;
+        margin-right: -30px;
+    }
+
+    .carear-content-container {
+        width: 90%;
+    }
+
+    .carear-image-container {
+        width: 90%;
+    }
+
+
     /* footer section mobile size */
     footer {
         margin-right: -30px;
@@ -205,6 +221,20 @@
     .gamer-btn {
         width: calc((33vw) - 20px);
         gap: 1px;
+    }
+
+    /* career section styles */
+    .carear-section-contianer {
+        flex-direction: column;
+        margin-right: -30px;
+    }
+
+    .carear-content-container {
+        width: 90%;
+    }
+
+    .carear-image-container {
+        width: 90%;
     }
 
     /* footer */

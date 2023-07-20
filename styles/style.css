@@ -297,6 +297,7 @@
 }
 
 
+
 /* 2 play-Game-online now section styles  */
 
 .play-game-online-now {
@@ -338,6 +339,77 @@
 }
 
 
+
+/*Careers section styles */
+.carear-section-contianer {
+    margin-bottom: 120px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position: center;
+}
+
+.carear-content-container {
+    width: 40%;
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carear-content-container h3 {
+    color: #FFF;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+
+.carear-content-container>p {
+    color: #FFF;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.carear-options {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.carear-options p {
+    width: 50%;
+    color: #FFF;
+    text-align: right;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    max-width: 240px;
+}
+
+.carear-options .carear-text-aline-left {
+    text-align: left;
+    max-width: 335px;
+}
+
+.carear-btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    margin-bottom: 80px;
+}
+
+.carear-image-container {
+    width: 50%;
+    height: 100%;
+}
+
+.carear-image-container img {
+    width: 100%;
+    height: 100%;
+}
 
 
 
